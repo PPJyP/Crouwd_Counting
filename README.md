@@ -20,7 +20,7 @@
   
 </div>
   
-  * 이미지만을 가지고 밀집된 인구수 **측정** 하기 위해 해당 프로젝트를 진행하게 되었습니다.
+  * 이미지만을 가지고 밀집된 **인구수 측정** 하기 위해 해당 프로젝트를 진행하게 되었습니다.
   
 <div align="center">
   
@@ -54,8 +54,7 @@
   
   <img src=https://user-images.githubusercontent.com/37567501/174832714-2bcd1b0c-64cd-40d7-bac9-47929e584d86.png width="850" height="400"/>
   
-  * 데이터셋 "ShanghaiTech_B"를 대상으로 높은 성능을 보이는 3개의 모델 SANet, SCRNet, FIDTM을 선정하였습니다.(숫자가 낮을 수록 성능이 좋음)
-  
+  * 데이터셋 "ShanghaiTech_B"를 대상으로 높은 성능을 보인다는 3개의 모델 **SANet, SCRNet, FIDTM**을 선정하였습니다.(숫자가 **낮을수록** 성능이 좋음)
   
   <br/><br/>
   ---
