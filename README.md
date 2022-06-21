@@ -129,14 +129,20 @@
 <div align="center">
   
   ### [활용방안]
+
+</div>
+  
+  #### >동영상 실시간 탐지 지원<
   
   <img src=https://user-images.githubusercontent.com/37567501/174844170-ed668fb2-686a-40c1-a920-8bf3cd37f44b.png width="850" height="400"/>
 
   <br/>
   
+  #### >웹서비스 지원<
+  
   <img src=https://user-images.githubusercontent.com/37567501/174844021-5f28989e-0c54-44d9-addb-b6ea306d22a0.png width="850" height="400"/>
   
-</div>
+
 
   * 추후 내시경을 통해 실시간으로 결과값을 확인할 수 있도록 처리속도가 빠른 Yolov5 모델을 채택하였기에 실시간 탐지에 활용할 수 있습니다.
   
