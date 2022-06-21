@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=관중수 카운팅 모델&fontSize=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=관중수 카운팅을 위한 3가지 모델&fontSize=50" />
   
 </div>
 
