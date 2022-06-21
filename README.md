@@ -40,21 +40,21 @@
   
   * 데이터 셋은 "https://paperswithcode.com/dataset/shanghaitech"에서 수집하였으며, 그 외 다른 종류의 군중 데이터 셋도 참고할 수 있습니다.
   
+  <br/>
+  
   #### >데이터 전처리<
   
   <img src=https://user-images.githubusercontent.com/37567501/174828333-1d7b8011-d921-4ce8-9ef0-41b01773a774.png width="850" height="200"/>
   
   * 이미지 전처리 과정을 거치면 **파란색 배경의 이미지(정답지)** 와 같은 결과 값을 생성할 수 있다.
   
-  #### >데이터 전처리 결과<
-  
-  <img src=https://user-images.githubusercontent.com/37567501/174628934-68b4f215-39b2-4afd-9123-3a8d23f1ab47.png width="850" height="400"/>
+  <br/>
   
   #### >모델 선정<
   
-  <img src=https://user-images.githubusercontent.com/37567501/174698126-77752e1c-d551-4be0-8c32-de101f3695ad.png width="850" height="400"/>
+  <img src=https://user-images.githubusercontent.com/37567501/174832714-2bcd1b0c-64cd-40d7-bac9-47929e584d86.png width="850" height="400"/>
   
-  * **환자 정보**가 담긴 엑셀은 **XGBoost** 모델, **내시경 이미지**는 **Yolov5** 모델을 활용해 감염여부를 확인할 수 있도록 선정하였습니다.
+  * 데이터셋 "ShanghaiTech_B"를 대상으로 높은 성능을 보이는 3개의 모델 SANet, SCRNet, FIDTM을 선정하였습니다.(숫자가 낮을 수록 성능이 좋음)
   
   
   <br/><br/>
@@ -69,11 +69,11 @@
   
 </div>
 
-  #### >모델 성능 결과값<
+  #### >모델별 비교 평가<
   
 <div align="center">
   
-  <img src=https://user-images.githubusercontent.com/37567501/174698327-87891964-fbce-4527-894d-4232ff1f26f6.png width="850" height="400"/>
+  <img src=https://user-images.githubusercontent.com/37567501/174832114-12a2760d-a439-4a38-94c6-d3c581f739a1.png width="850" height="400"/>
   
 </div>
   
