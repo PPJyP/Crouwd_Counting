@@ -140,11 +140,7 @@
   
   #### >웹서비스 지원<
   
-  <img src=https://user-images.githubusercontent.com/37567501/174844021-5f28989e-0c54-44d9-addb-b6ea306d22a0.png width="850" height="400"/>
-  
-
-
-  * 추후 내시경을 통해 실시간으로 결과값을 확인할 수 있도록 처리속도가 빠른 Yolov5 모델을 채택하였기에 실시간 탐지에 활용할 수 있습니다.
+  <img src=https://user-images.githubusercontent.com/37567501/174845029-129687ca-fddd-4cc2-bf86-629ffb18e75f.png width="850" height="400"/>
   
   
   ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer)
