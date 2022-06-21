@@ -116,7 +116,7 @@
   
   #### >개선사항_3<
   
-  <img src=https://user-images.githubusercontent.com/37567501/174842635-276ff3fb-4b86-4bd0-b6cb-9cf1eb29dacc.png width="850" height="400"/>  
+  <img src=https://user-images.githubusercontent.com/37567501/174842635-276ff3fb-4b86-4bd0-b6cb-9cf1eb29dacc.png width="850" height="350"/>  
   
   <br/><br/>
   ---
