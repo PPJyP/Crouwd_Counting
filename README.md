@@ -1,12 +1,12 @@
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=관중수 카운팅을 위한 3가지 모델&fontSize=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=밀집 인구수 분석 모델&fontSize=50" />
   
 </div>
 
   프로젝트 소개에 앞서...
-  1. 데이터 사이즈 초과로 인해 학습할 데이터 셋(관중 이미지)와 사전에 학습된 weight 파일은 업로드되지 않은 점 참고 바랍니다.
-  2. 내시경 이미지데이터 역시 사이즈 초과 문제와 의학 데이터인 점을 고려하여 공유할 수 없음을 말씀드립니다.
+  1. 데이터셋과 학습된 weight 파일은 업로드 가능 사이즈 초과로 인해 업로드되지 못한 점 참고바랍니다.
+  2. 정확도 비교를 위해 총 3가지 모델(SANet, SCRNet, FIDTM)을 선정하여 비교 분석하였습니다.
   
   <br/>
   
@@ -16,7 +16,7 @@
   
   <br/>
   
-  <img src=https://user-images.githubusercontent.com/37567501/174711142-6b8f378a-de62-47e1-875c-0b693607cff5.png width="850" height="400"/>
+  <img src=https://user-images.githubusercontent.com/37567501/174822064-b09bdd04-428a-411c-a8c1-a257db3de02a.png width="850" height="400"/>
   
 </div>
   
@@ -34,13 +34,17 @@
   
 </div>
   
-  #### >데이터 처리과정<
+  #### >데이터 수집<
   
-  <img src=https://user-images.githubusercontent.com/37567501/174697423-7fe7d40b-ef0c-4fbd-ab47-340ba22bcbac.png width="850" height="400"/>
+  <img src=https://user-images.githubusercontent.com/37567501/174826514-6b01e79a-c9bd-415c-a461-74d75c2560c9.png width="850" height="400"/>
+  
+  * 데이터 셋은 "https://paperswithcode.com/dataset/shanghaitech"에서 수집하였으며, 그 외 다른 종류의 군중 데이터 셋도 참고할 수 있습니다.
   
   #### >데이터 전처리<
   
-  <img src=https://user-images.githubusercontent.com/37567501/174697473-a5efb010-c27f-4e37-a5cb-d92792ad289a.png width="850" height="400"/>
+  <img src=https://user-images.githubusercontent.com/37567501/174828333-1d7b8011-d921-4ce8-9ef0-41b01773a774.png width="850" height="200"/>
+  
+  * 이미지 전처리 과정을 거치면 **파란색 배경의 이미지(정답지)** 와 같은 결과 값을 생성할 수 있다.
   
   #### >데이터 전처리 결과<
   
