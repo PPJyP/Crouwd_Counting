@@ -40,8 +40,6 @@
   
   <img src=https://user-images.githubusercontent.com/37567501/174826514-6b01e79a-c9bd-415c-a461-74d75c2560c9.png width="850" height="400"/>
   
-  <br/>
-  
   * 데이터 셋은 "https://paperswithcode.com/dataset/shanghaitech"에서 수집하였으며, 그 외 다른 종류의 군중 데이터 셋도 참고할 수 있습니다.
   
   <br/>
@@ -50,8 +48,6 @@
   
   <img src=https://user-images.githubusercontent.com/37567501/174828333-1d7b8011-d921-4ce8-9ef0-41b01773a774.png width="850" height="200"/>
   
-  <br/>
-  
   * 이미지 전처리 과정을 거치면 **파란색 배경의 이미지(정답지)** 와 같은 결과 값을 생성할 수 있다.
   
   <br/>
@@ -59,8 +55,6 @@
   #### >모델 선정<
   
   <img src=https://user-images.githubusercontent.com/37567501/174832714-2bcd1b0c-64cd-40d7-bac9-47929e584d86.png width="850" height="400"/>
-  
-  <br/>
   
   * 데이터셋 "ShanghaiTech_B"를 대상으로 높은 성능을 보인다는 3개의 모델 **SANet, SCRNet, FIDTM**을 선정하였습니다. (숫자가 **낮을수록** 성능이 좋음)
   
@@ -116,21 +110,31 @@
   
   : 저해상도 이미지를 고해상도 이미지로 복원하는 과정을 통해 예측 정확도를 높이기 위한 기법입니다.
   
+  <br/><br/>
   
   #### >개선사항_2<
   
   <img src=https://user-images.githubusercontent.com/37567501/174841859-aa344ec8-5ada-40ab-b794-4326c6f51ab2.png width="850" height="400"/>
   
+  <br/><br/>
+  
+  #### >개선사항_3<
+  
+  <img src=https://user-images.githubusercontent.com/37567501/174842635-276ff3fb-4b86-4bd0-b6cb-9cf1eb29dacc.png width="850" height="400"/>  
   
   <br/><br/>
   ---
   <br/><br/>
-    
-  ### [활용방안]
-  
+
 <div align="center">
   
-  <img src=https://user-images.githubusercontent.com/37567501/174631207-5750d817-eeef-4132-a53c-1e2fde3882ca.png width="850" height="400"/>
+  ### [활용방안]
+  
+  <img src=https://user-images.githubusercontent.com/37567501/174844170-ed668fb2-686a-40c1-a920-8bf3cd37f44b.png width="850" height="400"/>
+
+  <br/>
+  
+  <img src=https://user-images.githubusercontent.com/37567501/174844021-5f28989e-0c54-44d9-addb-b6ea306d22a0.png width="850" height="400"/>
   
 </div>
 
