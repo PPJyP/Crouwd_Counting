@@ -54,7 +54,7 @@
   
   <img src=https://user-images.githubusercontent.com/37567501/174832714-2bcd1b0c-64cd-40d7-bac9-47929e584d86.png width="850" height="400"/>
   
-  * 데이터셋 "ShanghaiTech_B"를 대상으로 높은 성능을 보인다는 3개의 모델 **SANet, SCRNet, FIDTM**을 선정하였습니다.(숫자가 **낮을수록** 성능이 좋음)
+  * 데이터셋 "ShanghaiTech_B"를 대상으로 높은 성능을 보인다는 3개의 모델 **SANet, SCRNet, FIDTM**을 선정하였습니다. (숫자가 **낮을수록** 성능이 좋음)
   
   <br/><br/>
   ---
@@ -76,7 +76,7 @@
   
 </div>
   
-  * **"Precision"** 값은 XGBoost와 Yolov5를 비교했을 때 차이가 거의 없으나, **"Recall"** 결과 값은 "XGBoost"가 현저히 떨어지는 것을 알 수 있다.
+  * 인구수 예측 오차가 낮은 순서는 테스트 결과 **FIDTM, SANet, SCRNet**이며, 평균적으로 **FIDTM이 좋은 성능**을 보여주었다.
   
   <br/>
   
