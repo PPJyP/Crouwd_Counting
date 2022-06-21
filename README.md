@@ -76,7 +76,7 @@
   
 </div>
   
-  * 인구수 예측 오차가 낮은 순서는 테스트 결과 **FIDTM, SANet, SCRNet**이며, 평균적으로 **FIDTM이 좋은 성능**을 보여주었다.
+  * 인구수 예측 오차가 낮은 순서는 테스트 결과 **FIDTM, SANet, SCRNet**이며, 세 개의 모델 중 평균적으로 **FIDTM이 좋은 성능**을 보여주었다. (또한 FIDTM이 **가시성**이 뛰어난 것을 볼 수있다.)
   
   <br/>
   
@@ -115,13 +115,15 @@
   
 <div align="center">
   
-  <img src=https://user-images.githubusercontent.com/37567501/174631711-b299d9e3-fecf-4a30-a9f2-65d24cae2440.png width="850" height="400"/>
+  <img src=https://user-images.githubusercontent.com/37567501/174836720-1ce3a868-d2d7-4385-967f-676d26f8ef83.png width="850" height="400"/>
   
 </div>
 
-  > Stacking이란? 
+  * 흑백 이미지에서 FIDTM 모델의 오차가 큰 이유는 FIDTM만 가지고 있는 모듈인 HighResolution 과정에서 컬러 이미지만 처리하도록 구현하여 문제가 발생한 것으로 판단됩니다. 이를 해결하기 위해서는 HighResolution 과정에 흑백 이미지 처리 과정을 추가가 필요해 보입니다.
+
+  > HighResolution이란? 
   
-  : 앙상블 기법은 머신러닝 모델의 성능을 향상할 때 많이 쓰이는 기법으로, 각 모델에서 예측한 값들을 가지고 최종 모델을 이용하여 한 번 더 target을 예측하도록 하여 모델의 예측 성능을 향상시킬 수 있는 기법입니다.
+  : 저해상도 이미지를 고해상도 이미지로 복원하는 과정을 통해 예측 정확도를 높이기 위한 기법입니다.
     
   <br/><br/>
   ---
