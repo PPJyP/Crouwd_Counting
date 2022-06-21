@@ -20,6 +20,8 @@
   
 </div>
   
+  <br/>
+  
   * 이미지만을 가지고 밀집된 **인구수 측정** 하기 위해 해당 프로젝트를 진행하게 되었습니다.
   
 <div align="center">
@@ -38,6 +40,8 @@
   
   <img src=https://user-images.githubusercontent.com/37567501/174826514-6b01e79a-c9bd-415c-a461-74d75c2560c9.png width="850" height="400"/>
   
+  <br/>
+  
   * 데이터 셋은 "https://paperswithcode.com/dataset/shanghaitech"에서 수집하였으며, 그 외 다른 종류의 군중 데이터 셋도 참고할 수 있습니다.
   
   <br/>
@@ -46,6 +50,8 @@
   
   <img src=https://user-images.githubusercontent.com/37567501/174828333-1d7b8011-d921-4ce8-9ef0-41b01773a774.png width="850" height="200"/>
   
+  <br/>
+  
   * 이미지 전처리 과정을 거치면 **파란색 배경의 이미지(정답지)** 와 같은 결과 값을 생성할 수 있다.
   
   <br/>
@@ -53,6 +59,8 @@
   #### >모델 선정<
   
   <img src=https://user-images.githubusercontent.com/37567501/174832714-2bcd1b0c-64cd-40d7-bac9-47929e584d86.png width="850" height="400"/>
+  
+  <br/>
   
   * 데이터셋 "ShanghaiTech_B"를 대상으로 높은 성능을 보인다는 3개의 모델 **SANet, SCRNet, FIDTM**을 선정하였습니다. (숫자가 **낮을수록** 성능이 좋음)
   
@@ -76,55 +84,44 @@
   
 </div>
   
+  <br/>
+  
   * 인구수 예측 오차가 낮은 순서는 테스트 결과 **FIDTM, SANet, SCRNet**이며, 세 개의 모델 중 평균적으로 **FIDTM이 좋은 성능**을 보여주었다. (또한 FIDTM이 **가시성**이 뛰어난 것을 볼 수있다.)
-  
-  <br/>
-  
-  #### >이미지 개수 따른 성능 비교<
-  
-<div align="center">
-  
-  <img src=https://user-images.githubusercontent.com/37567501/174633165-854e534a-553f-4b40-9eef-b08a9a3e9b1c.png width="850" height="400"/>
-  
-</div>
-
-  * 빨간색으로 표시된 곳에 수치가 높으면 성능이 좋다고 볼 수 있는데 **학습할 수 있는 이미지가 많을수록 성능이 높아짐**을 확인할 수 있습니다.
-  * 그래프 표에서 "metrics/precision"를 보면 **이미지가 적으면(1000개&5000개)** 더이상 **"precision"이 증가하지 않는** 것을 확인할 수 있습니다.
-  * 결론 : "epoch" 증가 보다 **학습할 "데이터"** 양이 절대적으로 중요
-
-
-
-  <br/>
-  
-  #### >서비스 구현<
-  
-<div align="center">
-  
-  <img src=https://user-images.githubusercontent.com/37567501/174630468-c50a73fb-88de-44bd-ac64-0d1f48e39d28.png width="850" height="400"/>
-
-</div>
-
-  * 웹서비스로 구현하여 인공지능(AI)의 예측을 확인할 수 있으며, 실제 의사의 진단과 비교 가능하게 만들어 **정확도**를 확인할 수 있습니다. (의사와 진단이 일치하는 결과값은 추가 학습에 사용 - **전이학습**)
-
   
   <br/><br/>
   ---
   <br/><br/>
+ 
+<div align="center">
   
   ### [개선사항]
   
+</div>
+
+  #### >개선사항_1<
+
 <div align="center">
   
   <img src=https://user-images.githubusercontent.com/37567501/174836720-1ce3a868-d2d7-4385-967f-676d26f8ef83.png width="850" height="400"/>
   
 </div>
-
+  
+  <br/>
+  
   * 흑백 이미지에서 FIDTM 모델의 오차가 큰 이유는 FIDTM만 가지고 있는 모듈인 HighResolution 과정에서 컬러 이미지만 처리하도록 구현하여 문제가 발생한 것으로 판단됩니다. 이를 해결하기 위해서는 HighResolution 과정에 흑백 이미지 처리 과정을 추가가 필요해 보입니다.
+  
+  <br/>
 
   > HighResolution이란? 
   
   : 저해상도 이미지를 고해상도 이미지로 복원하는 과정을 통해 예측 정확도를 높이기 위한 기법입니다.
-    
+  
+  
+  #### >개선사항_2<
+  
+  <img src=https://user-images.githubusercontent.com/37567501/174841859-aa344ec8-5ada-40ab-b794-4326c6f51ab2.png width="850" height="400"/>
+  
+  
   <br/><br/>
   ---
   <br/><br/>
